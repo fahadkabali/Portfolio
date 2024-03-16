@@ -18,7 +18,7 @@ export default function SideBar() {
                 </a>
               </li>
               <li className="nav_item">
-                <a href="about" className="nav_link">
+                <a href="#about" className="nav_link">
                   <i className="icon-user-following"></i>
                 </a>
               </li>
@@ -33,7 +33,7 @@ export default function SideBar() {
                 </a>
               </li>
               <li className="nav_item">
-                <a href="#portfolio" className="nav_link">
+                <a href="#work" className="nav_link">
                   <i className="icon-layers"></i>
                 </a>
               </li>
