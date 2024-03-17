@@ -4,11 +4,11 @@ import Menu from './Menu';
 
 export default function Portifolio() {
   const [items,setItems] = useState(Menu);
-  const filterItem =(categoryItem) =>{
-    const updatedItems = Menu.filter((curElem)=>{
-      return curElem.category===categoryItem
-    })
-  }
+  const filterItem = (categoryItem) => {
+    return Menu.filter((curElem) => {
+      return curElem.category === categoryItem;
+    });
+  }  
   return (
    <section className="work container section" id="work">
       <h2 className="section_title">Recent Works</h2>
