@@ -8,6 +8,7 @@ import Portifolio from './components/Portifolio/Portifolio';
 import Testmonials from './components/Testmonials/Testmonials';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Contact/>
         
       </main>
+      <Footer/>
         
     </div>
   );

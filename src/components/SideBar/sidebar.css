@@ -48,6 +48,9 @@
     z-index: 1;
     transition: .3s;
 }
+.nav_logo{
+   border-radius: 50%;
+}
 @media screen and (max-width:1024px){
     .aside{
         left: -110px;

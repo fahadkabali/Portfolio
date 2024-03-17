@@ -15,18 +15,18 @@ export default function Testmonials() {
     {
       id: 1,
       image: Image1,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "Abraham Salmon",
+      subtitle: "Managing Director Agri-works Innovations Uganda Ltd",
       comment:
-        "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+        "Fahad embodies unparalleled innovation and expertise, seamlessly integrating advanced technologies into their visionary software solutions. Good luck! 👍",
     },
     {
       id: 2,
       image: Image3,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "Chagara Emmanuel",
+      subtitle: "CEO Milima Security",
       comment:
-        "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+        "Impressed by Fahad's ability to adapt and learn quickly – that's a key strength in today's dynamic environment.. Good luck! 👍",
     },
   ];  
   return (

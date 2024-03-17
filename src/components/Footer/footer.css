@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    column-gap: 1.75rem;
+    margin: 1.5rem 0;
+    justify-content: center;
+}
+.footer-link{
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+.footer-link:hover{
+    color: hsl(43, 100%, 68%);
+
+}

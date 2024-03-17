@@ -1,30 +1,54 @@
 import React from 'react'
 import "./services.css"
-import Image1 from '../../assets/service-1.svg';
-import Image2 from '../../assets/service-2.svg';
-import Image3 from '../../assets/service-3.svg';
+import Image1 from '../../assets/frontend.png';
+import Image2 from '../../assets/backend.png';
+import Image3 from '../../assets/blockchain.png';
+import Image4 from '../../assets/mobileappdevelopment.jpg'
+import Image5 from '../../assets/websecurity.jpg';
+import Image6 from '../../assets/APISecurity.jpg';
 
 const data =[
   {
     id: 1,
     image: Image1,
-    title: "UI/UX design",
+    title: "Front-End Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+    "I'm a front-end wizard ready to craft delightful user experiences with my expertise in HTML, CSS, and JavaScript.",
   },
   {
     id: 2,
     image: Image2,
-    title: "Web Development",
+    title: "Back-End Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+    "Equipped with robust backend skills, I engineer scalable solutions to power seamless operations and elevate user experiences.",
   },
   {
     id: 3,
     image: Image3,
-    title: "Photography",
+    title: "Blockchain Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+    "As a Web3 enthusiast, I specialize in harnessing blockchain technology to build decentralized applications that revolutionize digital ecosystems.",
+  },
+  {
+    id: 4,
+    image: Image4,
+    title: "Mobile App Development",
+    description:
+      "I'm a mobile app maestro, crafting intuitive experiences with a keen eye for design and functionality, ensuring seamless performance across platforms.",
+  },
+  {
+    id: 5,
+    image: Image5,
+    title: "Web Application Security",
+    description:
+      "I safeguard digital realms, fortifying websites against cyber threats to ensure data privacy and integrity.",
+  },
+  {
+    id: 6,
+    image: Image6,
+    title: "API Security",
+    description:
+      "I specialize in API security, implementing robust measures to protect data integrity and user privacy, ensuring seamless and secure communication between applications.",
   },
 
 ]
