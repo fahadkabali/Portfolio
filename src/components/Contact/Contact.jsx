@@ -32,22 +32,17 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, subject, message }),
     })
-      // .then(() => alert("Message sent!"))
-      // .catch((error) => alert(error));
       .then(() => {
-        // Success message
         const successMessage = document.createElement('div');
         successMessage.classList.add('success-message'); 
         successMessage.textContent = 'Message Sent!';
         document.body.appendChild(successMessage);
   
-        // After a short delay, remove the message
         setTimeout(() => {
           document.body.removeChild(successMessage);
-        }, 2000); // Adjust delay as needed
+        }, 2000); 
       })
       .catch((error) => {
-        // Error message (optional)
         const errorMessage = document.createElement('div');
         errorMessage.classList.add('error-message'); 
         errorMessage.textContent = 'Error: ' + error;

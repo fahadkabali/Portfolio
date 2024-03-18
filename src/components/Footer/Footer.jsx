@@ -32,7 +32,15 @@ export default function Footer() {
         </a>
         </div>
         <p className='copy'><span> Copyright &copy;{date} All Right Reserved</span></p>
-    
+        <div className="relative">
+          <iframe
+            width="100%"
+            height="100%"
+            title="map"
+            className="absolute inset-0"
+            style={{ filter: "opacity(0.7)" }}
+            src="https://www.google.com/maps/embed/v1/place?q=Kiwatule,+Kampala,+Uganda&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+    /></div>
     </section>
   )
 }
