@@ -2,8 +2,10 @@ import React from 'react'
 import './footer.css'
 
 export default function Footer() {
+    const date = new Date().getFullYear();
   return (
     <section className="footer">
+         <span> Copyright &copy;{date} All Right Reserved</span>
         <a href="https://react.dev/learn" className="footer-link" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-react"></i>
         </a>
