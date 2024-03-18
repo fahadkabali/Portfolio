@@ -6,8 +6,10 @@ import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
 
 export default function Home() {
+ 
   return (
     <section className='home container' id="home">
+     
       <div className="intro">
         <img src={Me} alt="" className="home_img" />
         <h1 className="nome_name">Kabali Fahad Maliki</h1>

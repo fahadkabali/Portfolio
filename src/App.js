@@ -9,11 +9,14 @@ import Testmonials from './components/Testmonials/Testmonials';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Alert from './components/Alert/Alert';
+
 
 
 function App() {
   return (
     <div>
+        <Alert />
         <SideBar/>
       <main className='main'>
         <Home/>

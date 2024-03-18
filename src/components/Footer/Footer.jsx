@@ -4,8 +4,8 @@ import './footer.css'
 export default function Footer() {
     const date = new Date().getFullYear();
   return (
-    <section className="footer">
-         <span> Copyright &copy;{date} All Right Reserved</span>
+    <section>
+        <div className='footer'>
         <a href="https://react.dev/learn" className="footer-link" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-react"></i>
         </a>
@@ -30,6 +30,9 @@ export default function Footer() {
         <a href="https://dfinity.org/svelte/" className="footer-link" target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-infinity"></i>
         </a>
+        </div>
+        <p className='copy'><span> Copyright &copy;{date} All Right Reserved</span></p>
+    
     </section>
   )
 }

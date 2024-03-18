@@ -33,14 +33,14 @@ const Menu = [
       image: Work4,
       title: "Keeper APP",
       category: "BACKEND",
-      link:"https://github.com/fahadkabali/dkeeper.git",
+      link:"https://keeper-app-7b55e.web.app/",
     },
     {
       id: 5,
       image: Work5,
       title: "Movie Search Site",
       category: "FRONTEND",
-      link:"https://github.com/fahadkabali/fahadflix.git",
+      link:"https://fahadkabalimovies.web.app/",
     },
     
     {

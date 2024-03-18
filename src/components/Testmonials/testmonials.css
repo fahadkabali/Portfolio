@@ -10,6 +10,7 @@
     height: 5.6rem;
     width: 5.6rem;
     margin: 0 auto;
+    border-radius: 50%;
 }
 .testimonials_title{
     margin-top: 0.75rem;

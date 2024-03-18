@@ -12,8 +12,8 @@ export default function About() {
         <div className="about_data grid">
           <div className="about_info">
             <p className="about_description">
-              Self-motivated software engineer with the ability to transform innovative i
-              deas into user-friendly software solutions. With general experience across 
+              Self-motivated software engineer with the ability to transform innovative ideas 
+              into user-friendly software solutions. With general experience across 
               the software development lifecycle and proficiency in Python, JavaScript, React.js, 
               Node.js, Django, and more, I thrive on collaborating with teams to deliver high-quality 
               projects on time and within budget. Dedicated to continuous learning and staying updated 

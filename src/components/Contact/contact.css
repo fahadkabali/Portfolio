@@ -49,6 +49,23 @@
 .fa-paper-plane{
     color: #787878;
 }
+.success-message,
+.error-message {
+  background-color: rgb(37, 141, 37); /* Green for success, adjust for errors */
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed; /* Adjust positioning as needed */
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999; /* Ensure message appears above other content */
+}
+
+.error-message {
+  background-color: #db220d; /* Red for error, adjust as needed */
+}
 @media screen and (max-width:1024px){
     .contact_container{
         grid-template-columns: 300px 360px;

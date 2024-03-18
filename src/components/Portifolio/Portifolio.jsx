@@ -5,10 +5,9 @@ import Menu from './Menu';
 export default function Portifolio() {
   const [items,setItems] = useState(Menu);
   const filterItem = (categoryItem) => {
-    return Menu.filter((curElem) => {
-      return curElem.category === categoryItem;
-    });
-  }  
+    const filteredItems = Menu.filter((curElem) => curElem.category === categoryItem);
+    setItems(filteredItems); 
+  };
   return (
    <section className="work container section" id="work">
       <h2 className="section_title">Recent Works</h2>
@@ -30,7 +29,7 @@ export default function Portifolio() {
               </div>
               <span className="work_category">{category}</span>
               <h3 className="work_title">{title}</h3>
-              <a href={link} className="work_button">
+              <a href={link} target="_blank" rel="noopener noreferrer" className="work_button">
                 <i className="icon-link work_button-icon"></i>
               </a>
             </div>

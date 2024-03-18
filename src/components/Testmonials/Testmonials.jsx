@@ -44,7 +44,7 @@ export default function Testmonials() {
           return(
             <SwiperSlide className="testimonial_item" key={id}>
               <div className="thumb">
-                <img src={image} alt="" />
+                <img src={image} alt="profile" className='thumb' />
               </div>
               <h3 className="testimonials_title">{title}</h3>
               <span className="subtitle">{subtitle}</span>
