@@ -11,7 +11,7 @@ const Menu = [
       image: Work1,
       title: "Portfolio Website",
       category: "FRONTEND",
-      link:"https://github.com/fahadkabali/Portfolio.git",
+      link:" https://65f847ce9a02ab789b1c9814--prismatic-biscuit-7a5c4c.netlify.app",
     },
     {
       id: 2,
