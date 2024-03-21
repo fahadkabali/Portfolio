@@ -9,7 +9,7 @@ export default function SideBar() {
     <>
       <aside className={toggle?"aside show-menu" : "aside"}>
         <a href ="#home" className='nav_logo'>
-          <img src={logo} alt="Logo"/>
+          <img src={logo} alt="Logo" className='nav_logo'/>
         </a>
         <nav className="nav">
           <div className="nav_menu">
