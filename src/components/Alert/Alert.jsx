@@ -13,7 +13,7 @@ export default function Alert() {
       {displayAlert && (
         <div className={displayAlert ? "alert show" : "alert"} onClick={toggle}>
           <span className="closebtn">&times;</span>
-          <strong>Notice</strong> Website Still Under Development.
+          <strong>Notice:</strong> Website Still Under Development.
         </div>
       )}
     </>
