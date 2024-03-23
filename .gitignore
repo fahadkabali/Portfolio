@@ -1,47 +1,28 @@
-# # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# # dependencies
-# /node_modules
-# /.pnp
-# .pnp.js
-
-# # testing
-# /coverage
-
-# # production
-# /build
-
-# # misc
-# .DS_Store
-# .env.local
-# .env.development.local
-# .env.test.local
-# .env.production.local
-
-# npm-debug.log*
-# yarn-debug.log*
-# yarn-error.log*
-
-# # Local Netlify folder
-# .netlify
-
-# Build artifacts
+# dependencies
 node_modules/
-build/  # Assuming your production build folder is named "build"
+build/  
+/node_modules
+/.pnp
+.pnp.js
 
-# Testing frameworks (choose relevant ones)
-jest/  # For Jest
-cypress/  # For Cypress
-testing-library/  # For React Testing Library
+# testing
+/coverage
 
-# Editors and IDE specific files
-.vscode/
-.idea/
+# production
+/build
 
-# Temporary files
+# misc
 .DS_Store
-*.env  # Environment variables (store them securely)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Netlify specific
-# Ignore the directory where Netlify stores its cache and build artifacts
-.netlify/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Netlify folder
+.netlify
