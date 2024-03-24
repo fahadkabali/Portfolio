@@ -10,6 +10,8 @@ import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Alert from './components/Alert/Alert';
+import Chatbot from './components/Chatbot/Chatbot';
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
         <Testmonials/>
         <Blog/>
         <Contact/>
+        <Chatbot/>
         
       </main>
       <Footer/>
