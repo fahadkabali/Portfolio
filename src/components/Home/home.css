@@ -13,12 +13,6 @@
      
 }
 
-.home_img {
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-    border-radius: 2%;
-    position: relative;
-}
 
 .home_name {
     font-size: var(--h1-font-size);
@@ -65,28 +59,6 @@
     position: relative;
     animation: ani-mouse 2s linear infinite; /* Moved animation to .mouse */
 }
-@keyframes rotateHorizontally {
-    0% {
-        transform: rotateY(0deg) translateX(0);
-      }
-      25% {
-        transform: rotateY(180deg) translateX(100%);
-      }
-      50% {
-        transform: rotateY(180deg) translateX(100%) rotateY(360deg) translateX(100%);
-      }
-      75% {
-        transform: rotateY(360deg) translateX(100%);
-      }
-      100% {
-        transform: rotateY(360deg) translateX(0);
-      }
-  }
-  
-  .home_img {
-    animation: rotateHorizontally 60s linear infinite;
-    transform-origin: center center;
-  }
 
 @keyframes ani-mouse {
     0% {

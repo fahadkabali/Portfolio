@@ -1,9 +1,9 @@
 import React from 'react'
 import "./home.css"
-import Me from '../../assets/fahadkAvatar1.png'
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
+import HomeImage from './HomeImage';
 
 export default function Home() {
  
@@ -11,7 +11,7 @@ export default function Home() {
     <section className='home container' id="home">
      
       <div className="intro">
-        <img src={Me} alt="" className="home_img" />
+        <HomeImage/>
         <h1 className="nome_name">Kabali Fahad Maliki</h1>
         <span className="home_education">I am a Software Engineer</span>
 
