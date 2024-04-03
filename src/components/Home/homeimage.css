@@ -4,7 +4,7 @@
   }
   
   .rotate-animation {
-    animation: rotateHorizontally 50s linear infinite; 
+    animation: rotateHorizontally 15s linear infinite; 
   }
   
   @keyframes rotateHorizontally {

@@ -1,28 +1,41 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './homeimage.css'; 
 import Me from '../../assets/fahadkAvatar1.png'
 
+
+
 function HomeImage() {
   const [startAnimation, setStartAnimation] = useState(false);
+  const timerRef = useRef(null);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > window.innerHeight / 2) {
+    const startAnimationAfterInactivity = () => {
+      timerRef.current = setTimeout(() => {
         setStartAnimation(true);
-        window.removeEventListener('scroll', handleScroll);
-      }
+      }, 5000); 
     };
 
-    window.addEventListener('scroll', handleScroll);
+    const handleUserActivity = () => {
+      setStartAnimation(false);
+      clearTimeout(timerRef.current);
+      startAnimationAfterInactivity();
+    };
 
+
+    startAnimationAfterInactivity();
+
+    window.addEventListener('mousemove', handleUserActivity);
+    window.addEventListener('scroll', handleUserActivity);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      clearTimeout(timerRef.current);
+      window.removeEventListener('mousemove', handleUserActivity);
+      window.removeEventListener('scroll', handleUserActivity);
     };
-  }, []); 
+  }, []);
 
   return (
     <div className={`image ${startAnimation ? 'rotate-animation' : ''}`}>
-      <img src={Me} alt="Home_photo" className='home_img'/>
+      <img src={Me} alt="Home_photo" className="home_img"/>
     </div>
   );
 }
