@@ -47,7 +47,7 @@ export default function About() {
             </div>
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">EXpressJS</h3>
+                <h3 className="skills_name">NextJS</h3>
                   <span className="skills_number">60%</span>
               </div>
               <div className="skills_bar">

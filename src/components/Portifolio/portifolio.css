@@ -18,6 +18,7 @@
     gap: 1.875rem;
 }
 .work_card{
+    align-items: center;
     position: relative;
     overflow: hidden;
     border-radius: var(--border-radius);

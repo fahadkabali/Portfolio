@@ -1,16 +1,16 @@
 import React from 'react'
 import "./services.css"
-import Image1 from '../../assets/frontend.png';
-import Image2 from '../../assets/backend.png';
-import Image3 from '../../assets/blockchain.png';
-import Image4 from '../../assets/mobileappdevelopment.jpg'
-import Image5 from '../../assets/websecurity.jpg';
-import Image6 from '../../assets/APISecurity.jpg';
+import Image1 from '../../assets/service-1.svg';
+import Image2 from '../../assets/backend.svg';
+import Image3 from '../../assets/blockchain.svg';
+import Image4 from '../../assets/mobileApp.svg'
+import Image5 from '../../assets/service-3.svg';
+import Image6 from '../../assets/service-2.svg';
 
 const data =[
   {
     id: 1,
-    image: Image1,
+    image: Image6,
     title: "Front-End Development",
     description:
     "I'm a front-end wizard ready to craft delightful user experiences with my expertise in HTML, CSS, and JavaScript.",
@@ -38,14 +38,14 @@ const data =[
   },
   {
     id: 5,
-    image: Image5,
+    image: Image1,
     title: "Web Application Security",
     description:
       "I safeguard digital realms, fortifying websites against cyber threats to ensure data privacy and integrity.",
   },
   {
     id: 6,
-    image: Image6,
+    image: Image5,
     title: "API Security",
     description:
       "I specialize in API security, implementing robust measures to protect data integrity and user privacy, ensuring seamless and secure communication between applications.",
