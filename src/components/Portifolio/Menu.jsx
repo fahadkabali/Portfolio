@@ -12,21 +12,24 @@ const Menu = [
       image: Work1,
       title: "Portfolio Website",
       category: "FRONTEND",
-      link:"https://fahadkabali.netlify.app",
+      link1:"https://fahadkabali.netlify.app",
+      link2:"https://github.com/fahadkabali/portfolio.git",
     },
     {
       id: 2,
       image: Work7,
       title: "Online Store",
       category: "BACKEND",
-      link:"https://online-store-ecommerce-frontend.netlify.app",
+      link1:"https://online-store-ecommerce-frontend.netlify.app",
+      link2: "https://github.com/fahadkabali/online-store-ecommerce-frontend.git",
     },
     {
       id: 3,
       image: Work4,
       title: "NFT Market Place",
       category: "WEB3",
-      link:"https://github.com/fahadkabali/token.git",
+      link1:"https://github.com/fahadkabali/token.git",
+      link2: "https://github.com/fahadkabali/nft-marketplace.git",
     },
     
     {
@@ -34,14 +37,16 @@ const Menu = [
       image: Work3,
       title: "Keeper APP",
       category: "BACKEND",
-      link:"https://keeper-app-7b55e.web.app/",
+      link1:"https://keeper-app-7b55e.web.app/",
+      link2: "https://github.com/fahadkabali/keeper-app.git",
     },
     {
       id: 5,
       image: Work5,
       title: "Movie Search Site",
       category: "FRONTEND",
-      link:"https://fahadkabalimovies.web.app/",
+      link1:"https://fahadkabalimovies.web.app/",
+      link2: "https://github.com/fahadkabali/movies.git",
     },
     
     {
@@ -49,14 +54,16 @@ const Menu = [
       image: Work2,
       title: "DApp Bank",
       category: "WEB3",
-      link:"https://github.com/fahadkabali/dbank.git",
+      link1:"https://github.com/fahadkabali/dbank.git",
+      link2: "https://github.com/fahadkabali/dbank.git",
     },
     {
       id: 7,
       image: Work6,
       title: "Spur a prompt posting App",
       category: "FRONTEND",
-      link:"https://spur-theta.vercel.app/",
+      link1:"https://spur-theta.vercel.app/",
+      link2: "https://github.com/fahadkabali/spur.git",
     },
   ];
   

@@ -110,6 +110,9 @@
 .fa-file-arrow-down{
     color: #787878;
 }
+.skill-icon{
+    padding-right: 10px;
+}
 @media screen and (max-width: 1024px) {
     .about_container{
         grid-template-columns: 720px;

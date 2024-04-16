@@ -20,7 +20,7 @@ export default function Portifolio() {
       </div>
       <div className="work_container grid">
         {items.map((elem)=>{
-          const {id,image,title,category,link} = elem;
+          const {id,image,title,category,link1, link2} = elem;
           return(
             <div className="work_card" key={id}>
               <div className="work_thumbnail">
@@ -29,9 +29,15 @@ export default function Portifolio() {
               </div>
               <span className="work_category">{category}</span>
               <h3 className="work_title">{title}</h3>
-              <a href={link} target="_blank" rel="noopener noreferrer" className="work_button">
-                <i className="icon-link work_button-icon"></i>
-              </a>
+              <div className="link-work">
+                <a href={link1} target="_blank" rel="noopener noreferrer" className="work_button">
+                  <i className="icon-link work_button-icon">Live</i>
+                </a>
+                <a href={link2} target="_blank" rel="noopener noreferrer" className="work_button">
+                  {/* <i className="icon-link work_button-icon"></i> */}
+                  <i class=" icon-link work_button-icon fa-duotone fa-eye"></i>
+                </a>
+              </div>
             </div>
           )
         })}
