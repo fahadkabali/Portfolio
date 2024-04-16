@@ -71,12 +71,12 @@
 
 }
 .work_button{
-    color: #fff;
+    color: black;
     position: relative;
     bottom: 1.5rem;
     left: 1.5rem;
     font-size: var(--h3-font-size);
-    display: block;
+    display: flex;
     background-color: #eed237;
     height: 80px;
     width: 80px;
@@ -93,6 +93,9 @@
 }
 .work_card:hover .work_button{
     opacity: 1;
+}
+.work_button:hover{
+    background-color:antiquewhite;
 }
 .work_card:hover .work_title,
 .work_card:hover .work_category{
