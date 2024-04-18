@@ -10,16 +10,16 @@ export default function HeaderSocials() {
             <i class="fa-brands fa-linkedin"></i>
         </a>
         <a href="https://twitter.com/fahd_kf_" className="home_social-link" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-x-twitter"></i>
         </a>
         <a href="https://www.instagram.com/fahd_kf_/" className="home_social-link" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://www.facebook.com/fahd.k.malick/" className="home_social-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/" className="home_social-link" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-facebook"></i>
         </a>
-        <a href="https://www.pinterest.com/kabalifahad/" className="home_social-link" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-pinterest"></i>
+        <a href="https://www.tiktok.com/" className="home_social-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-tiktok"></i>
         </a>
         
     </div>
