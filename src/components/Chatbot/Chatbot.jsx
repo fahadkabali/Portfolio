@@ -73,7 +73,7 @@ export default function Chatbot() {
  
                     // This appears as the header
                     // text for the chat bot
-                    headerTitle="Helper"
+                    headerTitle="Ask Me Anything"
                     steps={steps}
                     {...config}
  
