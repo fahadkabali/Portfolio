@@ -11,7 +11,7 @@ export default function AboutBox() {
   const clientEndNumber = 17;
   const endorseEndNumber = 22;
 
-  const interval = 50;
+  const interval = 150;
 
   const projectRef = useRef(null);
   const collabRef = useRef(null);
