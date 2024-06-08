@@ -24,6 +24,9 @@
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
 }
+.work_thumbnail{
+    align-items: center;
+}
 .work_mask{
     background: #6f99e7;
     position: absolute;
@@ -68,6 +71,7 @@
     padding-top: 2rem;
     justify-content: space-evenly;
     align-items: center;
+
 
 }
 .work_button{

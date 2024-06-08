@@ -31,9 +31,11 @@ export default function Portifolio() {
               <h3 className="work_title">{title}</h3>
               <div className="link-work">
                 <a href={link1} target="_blank" rel="noopener noreferrer" className="work_button">
-                  <i class="fa-solid fa-eye fa-2xl"></i>                </a>
+                  <i class="fa-solid fa-eye fa-2xl"></i>                
+                  </a>
                 <a href={link2} target="_blank" rel="noopener noreferrer" className="work_button">
-                  <i class="fa-brands fa-github fa-2xl"></i>                </a>
+                  <i class="fa-brands fa-github fa-2xl"></i>                
+                  </a>
               </div>
             </div>
           )
