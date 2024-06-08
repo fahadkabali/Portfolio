@@ -71,9 +71,13 @@ export default function AboutBox() {
     if (endorseRef.current) observer.observe(endorseRef.current);
 
     return () => {
+      // eslint-disable-next-line
       if (projectRef.current) observer.unobserve(projectRef.current);
+      // eslint-disable-next-line
       if (collabRef.current) observer.unobserve(collabRef.current);
+      // eslint-disable-next-line
       if (clientRef.current) observer.unobserve(clientRef.current);
+      // eslint-disable-next-line
       if (endorseRef.current) observer.unobserve(endorseRef.current);
     };
   }, [projectCount, collabCount, clientCount, endorseCount]);

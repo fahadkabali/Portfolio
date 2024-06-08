@@ -1,5 +1,6 @@
 .contact.section{
     padding-bottom: 6.25rem;
+    z-index: -1;
 }
 .contact_container{
     grid-template-columns: 4fr 8fr;
