@@ -27,6 +27,13 @@
 .work_thumbnail{
     align-items: center;
 }
+.work_img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width:330px;
+    height:224px;
+}
 .work_mask{
     background: #6f99e7;
     position: absolute;
@@ -55,7 +62,7 @@
     transition: .3s;
 }
 .work_title{
-    color:#fff;
+    color:var( --container-color);
     font-size: var(--h3-font-size);
     margin: 0 0 0.98rem;
     padding: 0 1.25rem;
@@ -67,9 +74,10 @@
 }
 .link-work{
     display: flex;
+    margin-left: 0%;
     padding-inline-end: 20px;
     padding-top: 2rem;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
 
 
@@ -81,9 +89,9 @@
     left: 1.5rem;
     font-size: var(--h3-font-size);
     display: flex;
-    background-color: #eed237;
-    height: 80px;
-    width: 80px;
+    background-color: #e1f6f7;
+    height: 50px;
+    width: 50px;
     cursor: pointer;
     border-radius: 50%;
     justify-content: center;
@@ -92,14 +100,15 @@
     line-height: 42px;
     transition: .3s;
     opacity: 0;
-    /* margin: 1px;  */
+    margin-right: 2rem; 
+    gap:0px;
     
 }
 .work_card:hover .work_button{
     opacity: 1;
 }
 .work_button:hover{
-    background-color:antiquewhite;
+    background-color:rgb(77, 80, 78);
 }
 .work_card:hover .work_title,
 .work_card:hover .work_category{

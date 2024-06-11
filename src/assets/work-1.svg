@@ -1,7 +1,6 @@
 
-
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="454" viewBox="0 0 15% 10%"  x="50%" y="50%" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="m15.17983,488.38062c0,.66.53,1.19,1.19,1.19h593.26001c.65997,0,1.19-.53,1.19-1.19s-.53003-1.19-1.19-1.19H16.36983c-.66,0-1.19.53-1.19,1.19Z" fill="#2f2e43" stroke-width="0"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="610.81985" height="489.57062" viewBox="0 0 810.81985 689.57062" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="m15.17983,488.38062c0,.66.53,1.19,1.19,1.19h593.26001c.65997,0,1.19-.53,1.19-1.19s-.53003-1.19-1.19-1.19H16.36983c-.66,0-1.19.53-1.19,1.19Z" fill="#FEFEFD" transform="translate(0,0)" stroke-width="0"/>
 <path d="m322.81828,370.94498c-1.62896,9.87394-10.22129,17.43042-20.54927,17.43042s-18.9203-7.55648-20.54927-17.43042h-52.57347v113.93544h146.24548v-113.93544h-52.57347Z" fill="#b6b3c5" stroke-width="0"/>
 <rect x="231.69705" y="484.45538" width="14.4545" height="2.55079" fill="#b6b3c5" stroke-width="0"/>
 <rect x="359.66185" y="484.88051" width="14.4545" height="2.55079" fill="#b6b3c5" stroke-width="0"/>

@@ -1,10 +1,10 @@
-import Work1 from '../../assets/work-1.svg';
-import Work2 from '../../assets/bank.svg'
-import Work3 from '../../assets/work-3.svg';
-import Work4 from '../../assets/work-4.svg';
-import Work5 from '../../assets/work-5.svg'
-import Work6 from '../../assets/work-6.svg';
-import Work7 from '../../assets/shoppingcart.svg'
+import Work1 from '../../assets/work1.png';
+import Work2 from '../../assets/work2.png'
+import Work3 from '../../assets/work3.png';
+import Work4 from '../../assets/work4.png';
+import Work5 from '../../assets/work5.png'
+import Work6 from '../../assets/work6.png';
+import Work7 from '../../assets/work7.png'
 
 const Menu = [
     {
@@ -17,7 +17,7 @@ const Menu = [
     },
     {
       id: 2,
-      image: Work7,
+      image: Work2,
       title: "Online Store",
       category: "BACKEND",
       link1:"https://online-store-ecommerce-frontend.netlify.app",
@@ -25,7 +25,7 @@ const Menu = [
     },
     {
       id: 3,
-      image: Work4,
+      image: Work3,
       title: "NFT Market Place",
       category: "WEB3",
       link1:"https://github.com/fahadkabali/token.git",
@@ -34,7 +34,7 @@ const Menu = [
     
     {
       id: 4,
-      image: Work3,
+      image: Work4,
       title: "Keeper APP",
       category: "BACKEND",
       link1:"https://keeper-app-7b55e.web.app/",
@@ -51,7 +51,7 @@ const Menu = [
     
     {
       id: 6,
-      image: Work2,
+      image: Work6,
       title: "DApp Bank",
       category: "WEB3",
       link1:"https://github.com/fahadkabali/dbank.git",
@@ -59,7 +59,7 @@ const Menu = [
     },
     {
       id: 7,
-      image: Work6,
+      image: Work7,
       title: "Spur a prompt posting App",
       category: "FRONTEND",
       link1:"https://spur-theta.vercel.app/",
