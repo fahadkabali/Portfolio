@@ -1,10 +1,10 @@
 import Work1 from '../../assets/work1.png';
-import Work2 from '../../assets/work2.png'
+import Work2 from '../../assets/work-2.svg'
 import Work3 from '../../assets/work3.png';
 import Work4 from '../../assets/work4.png';
 import Work5 from '../../assets/work5.png'
 import Work6 from '../../assets/work6.png';
-import Work7 from '../../assets/work7.png'
+import Work7 from '../../assets/work7.svg'
 
 const Menu = [
     {

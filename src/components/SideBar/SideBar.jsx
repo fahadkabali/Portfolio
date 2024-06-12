@@ -58,7 +58,7 @@ export default function SideBar() {
       </aside>
       <div className={toggle?"nav_toggle nav_toggle-open":
     "nav_toggle"} onClick={()=>showMenu(!toggle)}>
-        <i className="icon-menu"></i>
+        <i class="fa-solid fa-circle-chevron-right" style={{color: "#000000",}}></i>
       </div>
     </>
   )
