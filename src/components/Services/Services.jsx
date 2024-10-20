@@ -46,7 +46,7 @@ const data =[
   {
     id: 6,
     image: Image5,
-    title: "API Security",
+    title: "API Development & Security",
     description:
       "I specialize in API security, implementing robust measures to protect data integrity and user privacy, ensuring seamless and secure communication between applications.",
   },

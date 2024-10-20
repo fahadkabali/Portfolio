@@ -27,6 +27,14 @@ const Data = [
     },
     {
       id: 4,
+      category: "education",
+      icon: "icon-graduation",
+      year: "2024 - present",
+      title: "Certificate",
+      desc: "SOC2 Lead Analyst",
+    },
+    {
+      id: 5,
       category: "experience",
       icon: "icon-briefcase",
       year: "2024 - Present",
@@ -34,7 +42,7 @@ const Data = [
       desc: "Milima Security.",
     },
     {
-      id: 5,
+      id: 6,
       category: "experience",
       icon: "icon-briefcase",
       year: "2023 - 2024",
@@ -42,7 +50,7 @@ const Data = [
       desc: "Btrust Builders.",
     },
     {
-      id: 6,
+      id: 7,
       category: "experience",
       icon: "icon-briefcase",
       year: "2017 - Present",

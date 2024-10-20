@@ -65,6 +65,22 @@ const Menu = [
       link1:"https://spur-theta.vercel.app/",
       link2: "https://github.com/fahadkabali/spur.git",
     },
+    {
+      id: 8,
+      image: Work1,
+      title: "Milima Security Website",
+      category: "FRONTEND",
+      link1:"https://milimasecurity.com/",
+      link2: "https://github.com/fahadkabali",
+    },
+    {
+      id: 9,
+      image: Work2,
+      title: "Cybersecurity Assessment Tool(CSAT)",
+      category: "BACKEND",
+      link1:"https://csat.milimasecurity.com/",
+      link2: "https://github.com/fahadkabali/",
+    }
   ];
   
 
